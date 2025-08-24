@@ -37,3 +37,55 @@ body {
     text-align: center;
     margin-top: 3px;
 }
+
+
+/* offer section */
+
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.offer-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+
+}
+.offer-heading .off{
+    font-size: 50px;
+}
+
+.offer-heading p{
+    color: red;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.offer-heading .deals {
+    font-size: 20px;
+    color: orangered;
+    margin-bottom: 8px;
+    line-height: 10px;
+}
+
+.offer-heading .categories{
+    font-size: 40px;
+    color: black;
+    line-height: 18px;
+    margin-top: 12px;
+    
+} 
+
+
+.offer-image{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.offer-image img{
+    width: 650px;
+}
