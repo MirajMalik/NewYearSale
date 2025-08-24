@@ -8,7 +8,7 @@ body {
 .banner{
     margin: auto;
     height: 600px;
-    width: 1510px;
+    width: 1500px;
     background-image: linear-gradient(rgba(0,0,0,0.4)), url("../resources/Banner\ Image.png");
     display: flex;
     justify-content: center;
@@ -88,4 +88,64 @@ body {
 }
 .offer-image img{
     width: 650px;
+}
+
+
+/* welcome section */
+
+.welcome-section{
+    background-color:bisque;
+    background-image: linear-gradient(rgba(0,0,0,0.7)), url(../resources/Vectorrr.png);
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    width: 1500px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.welcome-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+   
+
+}
+
+.welcome-image-container{
+    /* background-color:chocolate; */
+    height: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-header{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.welcome-desc{
+    width: 700px;
+}
+
+.welcome-subheader{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 0px;
+}
+
+
+
+.welcome-btn button{
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px;
 }
