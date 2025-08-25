@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  margin-top: 50px;
   padding: 0;
 }
 
@@ -9,6 +10,7 @@ body {
     margin: auto;
     height: 600px;
     width: 1500px;
+    border-radius: 12px;
     background-image: linear-gradient(rgba(0,0,0,0.4)), url("../resources/Banner\ Image.png");
     display: flex;
     justify-content: center;
@@ -97,6 +99,7 @@ body {
     background-color:bisque;
     background-image: linear-gradient(rgba(0,0,0,0.7)), url(../resources/Vectorrr.png);
     margin: auto;
+    border-radius: 12px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +108,7 @@ body {
     width: 1500px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .welcome-conatiner{
@@ -146,4 +149,54 @@ body {
     padding: 10px;
     background-color: azure;
     border-radius: 5px;
+}
+
+/* location section */
+
+.location-section{
+    background-color:rgba(214, 86, 161, 0.1);
+    background: linear-gradient(
+        to top,
+        rgba(255, 254, 254, 0.2) 0%,   /* bottom - low opacity */
+        rgba(224, 187, 210, 0.8) 100%  /* top - high opacity */
+    );
+    opacity: 0.3 0.7;
+    height: 600px;
+    width: 1500px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.location-desc{
+    /* background-color:rgb(173, 173, 135); */
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.location-desc p{
+    font-size: 40px;
+}
+
+.location-holder{
+    color: red;
+}
+
+.location-btn{
+    /* background-color:aquamarine; */
+    padding: 40px;
+}
+
+.join-btn{
+    padding: 15px 30px;
+    background-color: azure;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: red;
 }
