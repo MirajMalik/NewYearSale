@@ -290,3 +290,110 @@ body {
     margin-bottom: 40px;
     opacity: 0.7;
 }
+
+
+/* surprise section */
+
+.surprise-section{
+    /* background-color: beige; */
+    height: 1200px;
+    width: 1500px;
+    margin: auto;
+    border-radius: 12px;
+    margin-bottom: 180px;
+}
+
+.surprise-text{
+    /* background-color:brown; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.surprise-text-header{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.surprise-text-sale{
+    font-size: 80px;
+     padding: 0px;
+     margin: 0;
+    margin-bottom: 20px;
+}
+
+.surprise-text-desc{
+    font-size: 26px;
+    opacity: 0.7;
+    padding: 0px;
+    margin: 0;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.surprise-holiday{
+    color: red;
+}
+
+.surprise-box{
+    display: flex;
+    align-items: end;
+    height: 300px;
+    width: 1600px;
+    position: relative;
+}
+
+/* .surprise-box img{
+   
+}
+
+.surprise-box1{
+    background-color: #f55b5b;
+    
+    width: 100%;
+    height: 20%;
+}
+
+.surprise-box2{
+    background-color: rgb(90, 32, 165);
+    height: 1000px;
+    width: 50%;
+    z-index: inherit;
+    
+}
+
+.surprise-box img{
+    height: 50%;
+    width: 50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.surprise-box{
+    background-color: aquamarine;
+    height: 70%;
+    width: 100%;
+}
