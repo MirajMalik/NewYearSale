@@ -296,6 +296,7 @@ body {
 
 .surprise-section{
     /* background-color: beige; */
+    
     height: 1200px;
     width: 1500px;
     margin: auto;
@@ -345,32 +346,38 @@ body {
     align-items: end;
     height: 300px;
     width: 1600px;
-    position: relative;
+    /* position: relative; */
+   background-color: transparent !important;
 }
 
-/* .surprise-box img{
-   
+.surprise-container{
+    position: relative;  
+    width: 1500px;
 }
 
-.surprise-box1{
-    background-color: #f55b5b;
-    
+
+.carpet{
+    /* background-color: #f55b5b; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 20%;
+    z-index: 1;
+    height: 200px;
 }
 
-.surprise-box2{
-    background-color: rgb(90, 32, 165);
-    height: 1000px;
-    width: 50%;
-    z-index: inherit;
-    
+.box{
+    /* background-color: rgb(90, 32, 165); */
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    bottom: 10px;
+    left: 100px;
+    z-index:2;
+    transform: rotate(45);   
 }
 
-.surprise-box img{
-    height: 50%;
-    width: 50%;
-} */
+
 
 
 
