@@ -11,7 +11,7 @@ body {
     height: 600px;
     width: 1500px;
     border-radius: 12px;
-    background-image: linear-gradient(rgba(0,0,0,0.4)), url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(rgba(0,0,0,0.4)), url("../resources/Banner-Image.png");
     display: flex;
     justify-content: center;
     align-items: center;
